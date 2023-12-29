@@ -1,0 +1,19 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ws": "bun --watch ws8081.mjs",
+    "supabase": "bun --watch supabase.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.15.1",
+    "@supabase/supabase-js": "latest"
+
+  }
+}
